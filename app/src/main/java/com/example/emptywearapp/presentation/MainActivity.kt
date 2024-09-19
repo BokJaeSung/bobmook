@@ -40,7 +40,7 @@ class MainActivity : ComponentActivity() {
         }
     }
 }
-
+//hi
 @Composable
 fun WearApp(greetingName: String) {
     EmptywearAPpTheme {
