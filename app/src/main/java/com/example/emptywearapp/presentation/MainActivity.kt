@@ -76,7 +76,7 @@ class MainActivity : ComponentActivity() {
         }
     }
 }
-
+//
 @Composable
 fun WearApp(htmlContent: String) {
     EmptywearAPpTheme {
