@@ -49,7 +49,8 @@ android {
 }
 
 dependencies {
-
+    implementation("com.squareup.okhttp3:okhttp:4.9.3")
+    implementation("org.jsoup:jsoup:1.14.3")
     implementation(libs.play.services.wearable)
     implementation(platform(libs.compose.bom))
     implementation(libs.ui)
