@@ -65,7 +65,7 @@ fun Greeting(greetingName: String) {
         text = stringResource(R.string.hello_world, greetingName)
     )
 }
-
+///
 @Preview(device = WearDevices.SMALL_ROUND, showSystemUi = true)
 @Composable
 fun DefaultPreview() {
