@@ -48,7 +48,7 @@ class MainActivity : ComponentActivity() {
             }
         }
     }
-
+//
     private suspend fun fetchMealMenu(url: String): String? {
         return withContext(Dispatchers.IO) {
             try {
