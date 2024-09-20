@@ -35,8 +35,7 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        installSplashScreen()
-        setTheme(android.R.style.Theme_DeviceDefault)
+         setTheme(android.R.style.Theme_DeviceDefault)
 
         setContent {
             WearApp("Loading...")
