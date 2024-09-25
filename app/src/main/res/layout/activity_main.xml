@@ -1,0 +1,58 @@
+<androidx.wear.widget.BoxInsetLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#000000" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/breakfast_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:text="아침메뉴"
+                android:textSize="18sp"
+                android:maxWidth="130dp"
+                android:layout_margin="10dp" />
+
+            <TextView
+                android:id="@+id/lunch_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:text="점심메뉴"
+                android:textSize="18sp"
+                android:maxWidth="130dp"
+                android:layout_margin="10dp" />
+
+            <TextView
+                android:id="@+id/dinner_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:text="저녁메뉴"
+                android:textSize="18sp"
+                android:maxWidth="130dp"
+                android:layout_margin="10dp" />
+
+            <Button
+                android:id="@+id/scrape_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_margin="10dp"
+                android:text="메뉴 확인" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.wear.widget.BoxInsetLayout>
